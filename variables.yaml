@@ -1,1 +1,2 @@
 MONGODB_HOST: mongodb.kubernete.online
+REDIS_HOST: redis.kubernete.online
