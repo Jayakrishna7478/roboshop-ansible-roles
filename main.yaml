@@ -1,7 +1,15 @@
+# - name: "install {{component}}"
+#   hosts: "{{component}}"
+#   vars.files:
+#   - variables.yaml
+#   become: yes
+#   roles: 
+#   - "{{component}}"
+
 - name: "install {{component}}"
   hosts: "{{component}}"
-  vars.files:
+  vars_files:
   - variables.yaml
   become: yes
-  roles: 
+  roles:
   - "{{component}}"
